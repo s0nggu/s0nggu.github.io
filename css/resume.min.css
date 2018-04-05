@@ -112,6 +112,7 @@ body {
   
   section.resume-section .resume-item .resume-date {
     min-width: none;
+    display: table;
   }
   
   @media (min-width: 768px) {
@@ -134,9 +135,13 @@ body {
     background-color: rgb(253, 184, 211) !important;
   }
   
-  .text-primary {
+  .text-prima {
     color: #a7cc63 !important;
   }
+  .text-primary {
+    color: rgb(253, 184, 211) !important;
+  }
+
   
   a {
     color: rgb(250, 164, 197);
@@ -148,4 +153,18 @@ body {
 .me{
     padding: 10px 20px 10px 20px;
     
+}
+
+.resume-content{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#wrapper {
+    display: table;
+}
+ 
+#content {
+    display: table-cell;
+    vertical-align: middle;
 }
